@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    *{font-family: "Times New Roman";
+      font-weight:bold;
+    }
+    @keyframes division{
+      0%{background-color:black;
+      color:red;
+        top:0;left:0;
+      }
+      10%{background-color:tomato;
+      color:white;
+        top:0;left:20px;
+      }
+       20%{background-color:dodgerblue;
+      color:white;
+         top:0;left:40px;
+       }
+       30%{background-color:black;
+      color:gold;
+         top:0;left:60px;
+       }
+      40%{background-color:blue;
+      color:white;
+        top:0;left:80px;
+      }
+       50%{background-color:gray;
+      color:black;
+          top:0;left:100px;
+       }
+       60%{background-color:black;
+      color:red;
+          top:100px;left:80px;
+       }
+      70%{background-color:black;
+      color:pink;
+         top:180px;left:60px;
+      }
+      80%{background-color:blue;
+      color:white;
+         top:180px;left:40px;
+      }
+       90%{background-color:MediumSeaGreen;
+      color:white;
+          top:180px;left:20px;
+       }
+       100%{background-color:Green;
+      color:red;
+          top:0;left:0px;
+       }
+    }
+    div{padding:50px;
+    background-color:red;
+    border-radius:10px;
+    animation:1s division infinite;
+    position:relative;
+    animation-duration: 10s;}
+  </style>
+</head>
+<body>
+  <div>
+    <label for="id">
+      <input type="radio" name="id" id="id">Option A
+    </label><br>
+    <label for="ie">
+      <input type="radio" name="id" id="ie">Option B
+    </label><br>
+    <label for="if">
+    <input type="radio" name="id" id="if">Option C
+    </label><br>
+    <label for="ig">
+    <input type="radio" name="id" id="ig">Option D
+    </label>
+  </div>
+</body>
+</html>

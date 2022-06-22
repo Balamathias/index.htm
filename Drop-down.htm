@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dropdown list practice</title>
+  <style>
+    .hidden{display:none;}
+    .heading{background-color: #1c1910;
+    color:white;
+    box-shadow:0px 8px 16px 0px #576a6f;
+    padding:20px 30px;
+    width:100%;
+    }
+    .Dropdown:hover .hidden{display:block;}
+    .Dropdown{background-color:white;
+      transition:1s;}
+    }
+    .hidden{position:relative;
+    display:inline-block;
+      width:10%;
+      right:0;
+      z-index: 1;
+      position: absolute;
+      position:fixed;
+      
+    }
+    .hidden a{text-decoration: none;
+    display:block;
+    padding:8px;16px;
+      box-shadow: 0px 8px 16px 2px rgba(0,0,0,0.2);
+      width:30%;
+      overflow: auto;
+      right:0;
+      
+    }
+    .hidden a:hover{background-color:#131013;
+    color:white;}
+    
+  </style>
+</head>
+<body>
+  <div class="Dropdown">
+   <button class="heading">Select Chapter:</button> 
+  <div class="hidden">
+    <a href="#">Chapter 1</a>
+    <a href="#">Chapter 2</a>
+    <a href="#">Chapter 3</a>
+    <a href="#">Chapter 4</a>
+     <a href="#">Chapter 5</a>
+    <a href="#">Chapter 6</a>
+    <a href="#">Chapter 7</a>
+    <a href="#">Chapter 8</a>
+     <a href="#">Chapter 9</a>
+    <a href="#">Chapter 10</a>
+    <a href="#">Chapter 11</a>
+    <a href="#">Chapter 12</a>
+    </div>
+   </div>
+      <div style="float:right; margin:30%">Lorem ipsum dolor sit amet.</div>
+   
+ 
+  
+</body>
+</html>

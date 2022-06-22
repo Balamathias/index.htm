@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Me pràcticing side nav bar</title>
+  <style>
+    ul{margin:0;padding:0; /*This is used to remove default padding and margin which enables the text to fit in to the screen*/
+    list-style-type: none;/*this helps to eliminate the unordered list markings*/
+    display:block;/*this helps to set the ul limit*/
+    color:black;
+    background-color:rgb(174,174,174);
+    width:23%;
+    position:fixed;
+    height:100%;
+    overflow:auto;
+    }
+    li a{text-decoration: none;
+    color:black;
+      display:block; padding:8px 16px;}
+      li a:hover:not(.active){background-color:#626762;
+      color:white;}
+      .active{background-color: green;
+      color:white;}
+   @keyframes example{
+     0%{background-color: red;
+     top:0;}
+     25%{background-color: green; top:0
+     left:0;
+     50%{background-color: blue;
+     top:200px;left:0}
+     75%{background-color:yellow;
+     top:200px; right:0;}
+     100%{background-color: pink;
+     top:0; left:0}
+   }
+   #mydiv{width:200px;
+   height:200px;
+   animation-name: example;
+   animation-delay: 3s;
+   animation-direction:alternate;
+   animation-iteration-count: infinite;
+     background-color: blue;
+     position: relative;
+     animation-duration: 8s;
+   }
+   
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">News</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+  <div style="float:right; margin-left:25%" height="1000px">
+<h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
+<p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+<!--me learning about nav bars(side)-->
+<p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long (for example if it has over 50 links inside of it)</p>
+</div><br>
+<p id="radial">Life oh life!</p>
+<div id="mydiv"></div>
+  
+</body>
+</html>

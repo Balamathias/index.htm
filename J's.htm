@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <p id="personalia"></p>
+  <p id="hidden"></p>
+  <p id="match"></p>
+  <script>
+    let identity={
+      name:"Bala",
+      surName:"Mathias",
+      age:"17",
+      Class:"1st year",
+      address:"Abuja",
+      fullName:function(){
+        return this.name + " " + this.surName;
+      }
+    };
+    document.getElementById("personalia").innerHTML="My name is" +" " + identity.fullName();
+  </script>
+  <p id="lists"></p>
+  <script>
+    let str="Jesus is Life! je is life!";
+    str.search("life");
+    document.getElementById("hidden").innerHTML=str.search("life");
+    let abu="Ahmadu bello university";
+    abu.match(/u/g);
+    document.getElementById('match'). innerHTML=
+    abu.match(/u/g);
+    let list="List of Items";
+    let items=["Garri","Sugar","Goldenmorn"];
+    html=`<h2>${list}</h2> <ul>`
+    for (const x of items){html+=`<li>${x}</li>`};
+    html+=`</ul>`;
+    document.getElementById("lists"). innerHTML=html
+  </script>
+</body>
+</html>

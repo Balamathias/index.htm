@@ -1,0 +1,65 @@
+  body{background-color:#040404;}
+    .omni-div{margin:40px;}
+    .omni-div h1{font-size:50px;
+      color:white;
+    }
+    .omni-div h4{font-size:20px;
+      color:rgb(192,158,187);}
+    .first-link{font-size:23px;
+      color:white;
+      font-weight:bold;
+    }
+    .search-text{padding:12px;
+     border-top-left-radius:24px ;
+     border-bottom-left-radius:24px;
+     width:70%;
+     font-weight:500;
+    }
+    .search{margin-bottom:15px;
+      margin-right:none;
+    }
+    .header{display:flex;
+    flex-direction:right;
+      justify-content: space-between;
+      background-color:rgb(25,27,37);
+      height:80px;
+      align-items: center;
+      
+    }
+    .login{color:white;
+    font-size:12px;
+    font-weight: 500;
+      height:30px;
+      background-color: rgb(13,196,131);
+      width:80px;
+      text-align: center;
+      border-radius:24px;
+      padding-top:12px;
+    }
+    .menu{padding:5px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color:rgb(25,27,37);
+    border:none;
+    color:white;}
+    img{height:50px;
+   filter:grayscale;
+    }
+    .search{display:flex;
+    flex-direction:right;
+      justify-content: center;
+      align-items:center;
+    }
+    .search img{height:20px;
+      border:1px solid transparent;
+      background-color:#1ce9a0;
+      color:white;
+      padding:10px;
+      margin-left:-1px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+    .class{
+      border:1px solid black;
+      margin-left:-1px
+    }

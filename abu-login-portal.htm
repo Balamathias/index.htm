@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>abu login portal</title>
+  <style>
+  body{background-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScyOCcgaGVpZ2h0PSc0OScgdmlld0JveD0nMCAwIDI4IDQ5Jz48ZyBmaWxsLXJ1bGU9J2V2ZW5vZGQnPjxnIGlkPSdoZXhhZ29ucycgZmlsbD0nI2ZmZmZmZicgZmlsbC1vcGFjaXR5PScwLjEwJyBmaWxsLXJ1bGU9J25vbnplcm8nPjxwYXRoIGQ9J00xMy45OSA5LjI1bDEzIDcuNXYxNWwtMTMgNy41TDEgMzEuNzV2LTE1bDEyLjk5LTcuNXpNMyAxNy45djEyLjdsMTAuOTkgNi4zNCAxMS02LjM1VjE3LjlsLTExLTYuMzRMMyAxNy45ek0wIDE1bDEyLjk4LTcuNVYwaC0ydjYuMzVMMCAxMi42OXYyLjN6bTAgMTguNUwxMi45OCA0MXY4aC0ydi02Ljg1TDAgMzUuODF2LTIuM3pNMTUgMHY3LjVMMjcuOTkgMTVIMjh2LTIuMzFoLS4wMUwxNyA2LjM1VjBoLTJ6bTAgNDl2LThsMTIuOTktNy41SDI4djIuMzFoLS4wMUwxNyA0Mi4xNVY0OWgtMnonLz48L2c+PC9nPjwvc3ZnPg==');}
+    div{margin:0}
+    .header{height:80px;
+    background-color:white;
+      border-top:7px solid rgb(40,155,46);
+      border-left:1px solid transparent;
+      border-right:1px solid transparent;
+      border-bottom:1px solid transparent;
+    }
+    .omni-div{background-image:'grey';}
+    .nav-menu{height:45px;
+    background-color:white;
+    border-bottom:3px solid rgb(40,155,46);
+    margin-top:5px;
+      border-left:1px solid transparent;
+      border-right:1px solid transparent;
+      border-top:1px solid transparent;
+    }
+    .chief-div{margin-right:7px;
+    margin-left:7px;
+      background-color:;
+      color:white;
+      padding:15px;
+      margin-bottom:70px;
+      margin-top:5px;
+    }
+    .chief-div h1{text-align: center;}
+    body{background-color:gray}
+    .login{background-color:rgba(0,0,0,0.541);
+      color:white;
+      margin:12px;
+      padding:25px;
+    }
+    .login h1{text-align:left !important;}
+    .footer{background-color:rgb(40,155,46);
+    color:white;
+      padding:10px;
+      text-align:center;
+    }
+    .footer p{font-size:12px !important;}
+    .footer a{text-decoration: none;
+    font-size: 12px!important;
+    color:white !important;}
+    .bronch-nav{margin:60px;
+    background-color:white;
+      color:black;
+      border-radius:4px;
+      padding:10px;
+      font-size:14px;
+    }
+    h1{font-family: "Times New Roman";
+    font-weight:400;
+      font-size:25px;
+    }
+    .omni-div p{line-height:25px;
+    font-weight:400;
+      text-align:center;
+      font-size:15px;
+    }
+    .welc1{font-size:25px!important;
+    font-family: "Times New Roman";
+      margin-top:100px;
+      margin-bottom:0;
+    }
+    .welc2{font-family:"Times New Roman";
+    font-size:50px !important;
+    color:rgb(40,155,46);
+      line-height: 100px!important;
+      font-weight:bold !important;
+      margin-top:0px!important;
+    }
+    .login input{margin-bottom:20px;
+      padding:15px;
+      border-radius:3px;
+      width:90%;
+      border:1px solid transparent;
+      font-size:12px!important;
+      font-weight:400!important;
+    }
+    .login span{color:rgb(40,155,46);}
+    .login a{text-decoration:none;
+    color:white;
+    font-size:14px;
+    }
+    .login p{text-align:left;}
+    .login button{width:100%;
+    text-align:center;
+    padding:10px;
+    color:white;
+    background-color:rgb(40,155,46);
+    border:1px solid transparent;
+    border-radius:4px;
+    }
+    .nav-menu{position:sticky;
+    top:0;
+    }
+    .nav-menu img{height:45px;
+      float:right;
+      display:flex;
+      align-items:center;
+      justify-content: center;
+      margin-right:10px;
+      margin-bottom:0;
+    }
+    .header img{float:left;
+      height:40px;
+      margin-left:0px;
+      margin-top:0px;
+    }
+    .header h4{margin-right:40px;
+    line-height:30px;
+    color:rgb(26,28,33);
+    font-weight:600;
+    }
+    .header span{color:rgb(11,147,18);
+    font-size:12px;
+      margin-right:40px;
+    }
+    .header{display:flex;
+    flex-direction: right;}
+    ul{position: absolute;
+    z-index: 100;
+    display:none;
+    float:right;
+    }
+    .nav-menu button{float:right;
+      width:auto;
+      height:40px
+      background-color:transparent;
+      border:1px solid transparent;
+      padding:0;
+    }
+    .drop-down a{text-decoration:none; padding:8px 12px; background-color:#eeeaea;color:#11231b;
+      border-radius:4px;
+    }
+    li{list-style-type:none;
+    margin-bottom:15px;
+    }
+    ul{float:right}
+    
+  </style>
+  <script>
+    function myFunction(){document.getElementById('dropdown').style.display="none"}
+  </script>
+</head>
+<body>
+  <div class="omni-div">
+    <div class="header">
+      <div><img src="https://portal.abu.edu.ng/images/logo-wide.png"></div>
+      <div><h4>Ahmadu Bello University <br><span>Zaria-Nigeria</span></h4></div>
+    </div>
+    <div class="nav-menu">
+      <div onclick="myFunction()"><img src="https://download.flaticon.com/download/icon/2428584?icon_id=2428584&author=599&team=599&keyword=Menu&pack=2428536&style=Circular&style_id=1216&format=png&color=%23000000&colored=2&size=512%2C256%2C128%2C64%2C32%2C24%2C16&selection=1&premium=&type=standard&token=03AGdBq27O8mAlq8BKSuurpeyFjqAmA75RuUCn2XltE6NIfdyXYJ49dHaGtltVOL4t4VX9i9P7Vn27rmoe9Ywhwd32zj3Ww8N_ByU2JtB_E_RHjnwSmDghtG5yqRbzy64JCQ0gNb63-swVbFQDoj7bGklqR5JgOfSPH61X8VWQaQ04ybRk0UcfQGkIodrlnp1wMwwhqEobBb5kLUTB5FURE-3za2TePlnv1zZ7u6BByxjfjpU08QBtOMMuYpty_-LM5Im-Rhr7a6GQB2QWDuc8CHI3X6ZNvIH0a0JJzjuDesjntwxovstvCGcC2feuD3bIK0pD0ADf4WSLJX0M5IEgc1hypjrNIHy8da9l91Peyr2mUAAQzHWxube2Gifw6XWQYG7-SM_3LfoC1HPQeIdEoLc8apNqmUvsSG1BLHMcNnrXB_rrmmZ14lZVsiG69gWbv6zV0h-IXysllILIjFWVmfbjprjzFRxQwyAPkpRfEpPIfvUka8kP33RlO-8Xlwj7IBlN7lUGzQBZLisgEqlNlITdNmnnCF-4JpBnRwPE0Y9KjwE-sEAJN2NdxkoZwFPvcUTy7CBJS4CZwiADeXuKbN3GB7Znw1-qZAV4sQ47PrRfC7th8ErgLXT0j7VFmFrDM2xmuanxknaKwV9DeeiapMTcjtVUUQNGZ9qKUHPbJS7SgRugM5_qbgekLvPpGpa8jkGh6pCwx9MBEB-cPXhkF7e080ptTGN1eyiBJlcddDc9uD6r_FLVIOhnxvmsJNu4-2y0oXJr8snOnnMNCrGXJgeUMilLr4Sy9LRb4c0zcp8JWgclKryQC7CjzihqXabjBigq7ccntqfBBUIK9UvXWKRrHOvuQvTlMGMOjkHWcXwPvBVHmAoLZxRBrQRxnSQsQJNvlfmrQCfFtsLDkw6FYJCX88bt9eDJZm90Fw7VFYer1obfIaUl15nQL2_7Fi_FQEgGiQ5elgj6fH7tfS6UHVbzLS43iD3hfSMOo7mr_lRk308_W4kb5ytcT4GOJIuRee6wm_9lBxQm9q-xn_rK1-w6b3j_dI3nfPpKJczCL1om-22fk8R4xKWhQAWdWfCr5l_TW4yFc3WAfpdMEokCA9Y8s2o8ia-lspj2clzvrsnaZ2LQuDFnGIu1FPMme0xlDXg-zWDHd6ItpXOTdrks-hzP6V-MYaxLScNRMEqVf513fGHp82EVjQ59NYLcNV8Q8MSa0iy-QYSMR6DsBeF3ABZ4edP2aFB46310yEusJLha3XwZChXHBNlPhJQXoRa6uP4mn_0mAJrrW833p4ra1LfqwOkux-4XoGafYMSGwwvZ-Xz9ByWV1gCZoKD-1zkVdZWtZVwD1Heu1oAg5xZ3NVQvbrPVEg_YPIyBCVrbSrCLhJH1IFXT44QI0en1uong0rKDZ1ZBZF5wUqHe5-24txh6rSUnEmCydDJb692pdXFGBaJQEfwn5kowuUV46UGq1k5NjNzfthEKSP01b-sPVDyvaiXo9rkJE0ptz0zjR6z5E1rTRyRIHgZaWnWbC-QflOMtsfpzIrJ3ssHnkBiXcfQVrNwL27Peffi07Eg4TLUxoGIAPmiIGU4inWfrQ5IpNqcH0A-k4vuE&_gl=1*dlalms*test_ga*MTEwNTYxMjMxMC4xNjU0MTIyNjgy*test_ga_523JXC6VL7*MTY1NDEyMjcwMC4xLjEuMTY1NDEyMjc5OS4yNQ..*fp_ga*MTEwNTYxMjMxMC4xNjU0MTIyNjgy*fp_ga_1ZY8468CQB*MTY1NDEyMjcwMC4xLjEuMTY1NDEyMjc5OS4yNQ..">
+      </div>
+    </div>
+      <ul id="dropdown" class="drop-down">
+        <li><a href="#" style="">Dashboard</a></li>
+        <li><a href="#">Information</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Notification</a></li>
+      </ul>
+    <div class="chief-div">
+      <p class="welc1">Welcome to ABU eForms</p>
+      <p class="welc2">Welcome to ABU eForms</p>
+      <h1>Post UTME Candidates</h1>
+      <p>Post UTME Candidates are to login with their JAMB Registration Number and State of Origin as username and password respectively.</p>
+       <div class="bronch-nav">Check ABU bronchure</div>
+       <h1>Other Candidates
+       </h1>
+       <p>If you are a new applicant (Not PUTME Candidate), you need to create a profile and later select the type of form you wish to buy. If you already have an account, login with your credentials to purchase a form of your choice.</p>
+       <div class="login">
+         <h1>Please <span>Login</span></h1>
+         <form>
+           <label for="username"><b>Username</b><br>
+             <input type="text" name="username" id="username" placeholder="Enter Username">
+           </label><br>
+           <label for="password"><b>Password</b><br>
+             <input type="password" name="password" id="password" placeholder="Enter password"><br>
+             <button>Login</button>
+             <p><a href="#">Register now</a></p>
+           </label>
+         </form>
+       </div>
+    </div>
+    <footer class="footer">
+      <p>Copyright ©2022 Ahmadu Bello University. All rights <span class="res-span">Reserved</span></p>
+      <ul>
+        <a href="#">FAQ </a>|
+        <a href="#">Help Desk </a>|
+        <a href="#">Support</a>
+      </ul>
+
+ </footer>
+  </div>
+    
+ 
+    
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <title>My html code</title>
+      <style>
+        .demo{color: gold;
+        font-family:Arial;
+        font-size: 40px;
+        background-color: #2b2f34;
+        text-align:center;
+        }
+        .demo:hover{background-color:blue; color:white;
+        transition:2s;}
+        div{background-color:#c4c2bd;
+          margin-bottom: 40px;
+        }
+        li a{display:block;
+        text-decoration: none;
+        padding:10px;
+        margin:0;}
+        li{list-style-type: none;}
+        li a:hover{background-color:#3a3a3a;
+        color:white;}
+        .active{background-color: rgb(0,169,7);
+        color:white;}
+        #secondNavbar{border:1px solid black;text-align: center;}
+        li{border-bottom:1px solid black;
+        text-align: center;}
+        li:last-child{border-bottom:none;
+          width:100%
+        }
+        ul{margin:0;padding:0}
+        a{display:none;}
+      </style>
+   </head>
+  <body>
+    <div>
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+       <div>
+      <ul id="secondNavbar">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <p class="demo">My very first Paragraph</p>
+    <label for="food">Select food:
+      <input type="text" id="food" name="food" list="foods">
+      <datalist id="foods">
+        <option value="Rice"></option>
+        <option value="Maize"></option>
+        <option value="Beans"></option>
+        <option value="Yam"></option>
+        <option value="Cassava"></option>  
+        
+      </datalist>
+    </label>
+    
+    <a href="https://youtu.be/p1QU3kLFPdg" id="demo">youtube@htm-how to upload a code to the internet</a><br>
+    <a href="https://www.facebook.com/profile.php?id=100073749889797" id="dem">My fb profile</a>
+    <button onclick="myFunction()">Click here to display links...</button>
+    <script>
+      function myFunction(){document.getElementById("demo").style.display="block";
+        document.getElementById("dem").style.display="block"
+      }
+    </script>
+  </body>
+</html>

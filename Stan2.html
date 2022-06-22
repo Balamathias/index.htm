@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset:"utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Register</title>
+   <style>
+     .h2{font-weight:400;
+     background-color:#751200;
+     color:white;
+     font-family:Times new roman;
+     padding:5px;
+     padding-left:8px;
+     margin-left:0;
+     margin-top:0;
+     margin-bottom:5px
+     }
+     .reg{width:330px;
+     height:33px;
+     border-radius:3px
+     }
+     h1{font-weight:400;
+     color:#751200;
+     font-family:roboto
+     }
+     p{font-size:14px;
+     line-height:22px;
+     opacity:0.7
+     }
+     div{border-style:inset;
+     border-left:none;
+     border-right:none;
+     border-top:none;
+     }
+     .priv{font-weight:600;
+     
+     }
+     .a{text-decoration:none;
+     color:#820F00;
+     font-weight:700
+     }
+     .a:hover{color:dodgerblue}
+     label{font-weight:600}
+     .cancel{padding:5px;
+     background-color:#B6B6B8;
+     border-radius:3px;
+     text-align:center;
+     font-weight:bold;
+     color:black
+     }
+     .register{padding:6px;
+     background-color:#005C09;
+     border-radius:3px;
+     text-align:center;
+     font-weight:600;
+     color:white;
+     
+     }
+     a{text-decoration:none;
+     color:white
+     }
+     #abs{position:fixed;
+       top:1px;
+       width:100%
+       }
+       ::selector{background-color: yellow;
+       color:red;
+       }
+       
+     
+   </style>
+   
+</head>
+<body>
+   <div>
+  <h2 class="h2" id="abs" style="margin-top:0; margin-bottom:15px">Stanford University</h2>
+  <h1 style="margin-top:45px">Register</h1>
+  <p>Registering as a SecurePortal user gives you access to the forms you need to complete and submit as an international student or employee or as a prospective Postdoctoral Scholar.</p>
+
+  <p>Once your acceptance/appointment at Stanford is complete, you will be assigned a Stanford University Network ID (SUNet ID) and will have access to the University network and online services via the Axess portal.</p>
+
+  <p>All fields are required. Your email address will be used only to send a reminder in the event you forget your password.</p>
+  </div><br><br>
+  <div>
+   <form autocomplete>
+   <label for="fname"><b>First Name</b><br/>
+     <input type="text" name="fname" id="fname" class="reg" autofocus>
+   </label><br><br>
+   <label for="lname"><b>Last Name</b><br/>
+     <input type="text" name="lname" id="lname" class="reg">
+   </label><br><br>
+   <label for="Uname"><b>Username Name(should be lower case)</b><br/>
+     <input type="text" name="Uname" id="Uname" class="reg">
+   </label><br><br>
+   <label for="email"><b>Email</b><br/>
+     <input type="email" name="email" id="email" class="reg" required>
+   </label><br><br>
+   <label for="password"><b>Password</b><br/>
+     <input type="password" name="password" id="password" class="reg" min="8">
+     <p style="margin:0">minimum of eight characters</p>
+   </label><br><br>
+   <label for="retype-password"><b>Retype password</b><br/>
+     <input type="password" name="retype password" id="Retype-password" class="reg">
+   </label><br><br>
+   <p class="priv">I have read and agree to the <a href="#" class="a">Terms & Conditions and Privacy Policy</a> related to the creation and use of a SecurePortal to Stanford account.</p>
+    <label for="agree">
+    <input type="checkbox" id="agree">I agree
+    </label>
+    
+    <p class="cancel"><a href="#">Cancel</a></p>
+    <p class="register"><a href="#">Register</a></p>
+   
+   
+
+   </form>
+  </div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    body{background-color:#040404;}
+    .omni-div{margin:40px;
+    }
+    .omni-div h1{font-size:50px;
+      color:white;
+    }
+    .omni-div h4{font-size:20px;
+      color:rgb(217,167,188);}
+    .first-link{font-size:23px;
+      color:white;
+      font-weight:bold;
+    }
+    .search-text{height:40px;
+    display:flex;
+    flex:1;
+    font-size:14px;
+    font-weight:500;
+    border-bottom-left-radius:20px ;
+    border-top-left-radius: 20px;
+    padding-left:10px;
+    border:1px solid rgb(0,0,0,0.05)
+    }
+    .search{margin-bottom:35px;
+      margin-right:none;
+    }
+    .header{display:flex;
+    flex-direction:right;
+      justify-content: space-between;
+      background-color:rgb(255,255,255);
+      height:80px;
+      align-items: center;
+    }
+    .login{font-size:12px;
+    font-weight: 500;
+      width:80px;
+      background-color: rgb(13,196,131);
+      padding:16px 8px;
+      border-radius:24px;
+      text-align: center;
+    }
+     .login a{color:white;}
+    .menu{padding:5px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color:rgb(255,255,255);
+    border:none;
+    color:black;}
+    img{height:50px;
+   filter:grayscale;
+    }
+    .search{display:flex;
+    flex-direction:right;
+    }
+    .search img{height:20px;
+    padding:5px 14px;
+    margin-top:5px;
+    color:white;
+    }
+    .button{background-color:rgb(13,196,131);
+    margin-left:-1px;
+    border-bottom-right-radius: 28px;
+    border-top-right-radius:28px ;
+    border:1px solid rgb(0,0,0,0.05)
+    }
+    a{text-decoration:none;}
+    .first-link{text-decoration: underline;}
+    </style>
+</head>
+<body>
+  <div class="header">
+    <div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI5nLFXJWFMxWoHzpq3Pa5gM1GH4sK028QWTQJG-U&s=0">
+    </div>
+    <div>
+      <select class="menu">
+        <option value="menu">Menu</option>
+        <option value="home">Home</option>
+        <option value="Html">Html</option>
+        <option value="CSS">Css</option>
+      </select>
+    </div>
+    <div class="login">
+      <a href="#">Log in</a>
+    </div>
+  </div>
+  <div class="omni-div">
+    <h1>Learn to Code</h1>
+    <h4>With the world's largest web developer site.</h4>
+      <div class="search">
+        <div><input type="text" placeholder="Search for our tutorials,e.g.HTM" class="search-text">
+        </div>
+        <button class="button">
+          <img src="https://download.flaticon.com/download/icon/6996011?icon_id=6996011&author=2661&team=2661&keyword=Search&pack=6995936&style=Glyph&style_id=1223&format=png&color=%23000000&colored=1&size=512%2C256%2C128%2C64%2C32%2C24%2C16&selection=1&premium=&type=standard&_gl=1*15g9jq4*test_ga*MTEwNTYxMjMxMC4xNjU0MTIyNjgy*test_ga_523JXC6VL7*MTY1NDEyMjcwMC4xLjEuMTY1NDEyMzI0NS4xNQ..*fp_ga*MTEwNTYxMjMxMC4xNjU0MTIyNjgy*fp_ga_1ZY8468CQB*MTY1NDEyMjcwMC4xLjEuMTY1NDEyMzI0NS4xNQ.." class="img-search">
+          </button>
+      
+      </div>
+      <a href="#" class="first-link">Not Sure Where to begin?</a>
+  </div>
+</body>
+</html>
